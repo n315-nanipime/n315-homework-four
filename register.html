@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework 3</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="sign-in.html">Sign In</a>
+      <a href="register.html">Register</a>
+    </nav>
+    <div id="app">
+      <div id="register">
+        <h2>Register Now</h2>
+        <div class="form">
+          <label for="fn">First Name: </label>
+          <input type="text" id="fName" required="true" />
+          <br /><br />
+          <label for="ln">Last Name: </label>
+          <input type="text" id="lName" required="true" />
+          <br /><br />
+          <input type="submit" value="Submit" id="submit" />
+        </div>
+      </div>
+    </div>
+    <script src="lib/jquery-3.6.1.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="app/model.js" type="module"></script>
+    <script src="app/app.js" type="module"></script>
+  </body>
+</html>

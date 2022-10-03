@@ -1,65 +1,108 @@
 * {
- margin: 0;
- padding: 0;
- box-sizing: border-box;
-}
-html, body {
- height: 100%
-}
-h1, h2, h3, h4, h5, h6, p {
- margin-bottom: 16px
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.row {
-    background-color: aqua;
-    
+html,
+body {
+  height: 100%;
+  background-color: rgb(201, 224, 249);
 }
 
-.modal {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.7);
-    z-index: 99;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
 }
 
-.modal h2 {
-    color: #fff;
+#app {
+  margin: 0 auto;
 }
 
-/* .photo {
-    width: 300px;
-    height: 300px;
-    overflow: hidden;
-    
+nav {
+  height: 50px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-.photo img {
-    width: 300px;
+nav a {
+  color: white;
+  text-decoration: none;
 }
 
-@media all and (max-width: 1000px) {
-    .row {
-        background-color: antiquewhite;
-        flex-direction: column;
-    }
-    .photo {
-        margin-bottom: 20px;
-    }
-} */
+#home {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
 
-/* @media print {
-    .photo {
-        width: 100px;
-        height: 100px;
-    }
-    h1 {
-        display: none;
-    }
-} ; */
+.home-header {
+  max-width: 1000px;
+  overflow: hidden;
+  text-align: center;
+}
 
+.home-header img {
+  width: 100%;
+}
+
+.featured-books {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.books {
+  margin-top: 5%;
+}
+.books img {
+  width: 200px;
+}
+
+.books h2,
+p {
+  width: 200px;
+}
+
+#sign-in {
+  margin-top: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  text-align: center;
+}
+
+#sign-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+#register {
+  margin-top: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  text-align: center;
+}
+
+#submit {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+/*# sourceMappingURL=styles.css.map */

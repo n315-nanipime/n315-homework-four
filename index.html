@@ -4,27 +4,60 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Title</title>
+    <title>Homework 3</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <!-- <h1>HELLO Photos</h1> -->
-    <!-- <div class="row">
-      <img
-        src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg"
-        alt=""
-      />
-    </div> -->
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="sign-in.html">Sign In</a>
+      <a href="register.html">Register</a>
+    </nav>
+    <div id="app">
+      <div id="home">
+        <div class="home-header">
+          <img src="images/home-img.jpg" alt="" />
+          <h1>Search Your Favorite Books</h1>
+          <input type="search" value="Search" id="search" />
+          <div class="featured-books">
+            <div class="books">
+              <img src="images/book-cover1.jpeg" />
+              <h2>Lunar Storm</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maiores
+                quas magni adipisci quisquam mollitia ab perspiciatis consequuntur eum
+                et.
+              </p>
+            </div>
+            
+            <div class="books">
+              <img src="images/book-cover3.jpg" />
+              <h2>A Million to One</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maiores
+                quas magni adipisci quisquam mollitia ab perspiciatis consequuntur eum
+                et.
+              </p>
+            </div>
+<div class="books">
+              <img src="images/book-cover2.jpg" />
+              <h2>The Book of Art</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maiores
+                quas magni adipisci quisquam mollitia ab perspiciatis consequuntur eum
+                et.
+              </p>
+            </div>
 
-    <div class="form">
-      <label for="fn">First Name: </label>
-      <input type="text" id="fName" required="true" />
-      <label for="ln">Last Name: </label>
-      <input type="text" id="lName" required="true" />
-      <input type="submit" value="Submit" id="submit" />
+          </div>
+        </div>
+        
+        </div>  
+      </div>
     </div>
     <script src="lib/jquery-3.6.1.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="app/app.js"></script>
+    <script src="app/model.js" type="module"></script>
+    <script src="app/app.js" type="module"></script>
   </body>
 </html>
